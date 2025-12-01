@@ -21,4 +21,5 @@ faiss-cpu==1.9.0  # Vector search for RAG
 
 # Additional utilities
 python-dotenv==1.0.0  # For environment variables
+httpx==0.27.2  # Pin to avoid proxies kwarg removal in 0.28+
 
