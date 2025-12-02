@@ -287,7 +287,13 @@ def render_pred(pred, emp):
 def render_msg(role, txt, time=None):
     css = "msg-user" if role == "user" else "msg-ai"
     t = time or datetime.now().strftime("%H:%M")
-    st.markdown(f'<div class="{css}">{txt}<div class="msg-time">{t}</div></div>', unsafe_allow_html=True)
+    txt = txt.replace("\n", "<br>")
+
+    st.markdown(
+        f'<div class="{css}">{txt}<div class="msg-time">{t}</div></div>',
+        unsafe_allow_html=True
+    )
+
 
 
 def main():

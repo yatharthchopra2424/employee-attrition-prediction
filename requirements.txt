@@ -1,25 +1,25 @@
 # Core dependencies
-streamlit==1.41.0
-pandas==2.2.3
-numpy==1.26.4
-scikit-learn==1.5.2
-xgboost==2.1.3
-catboost==1.2.7
-imbalanced-learn==0.12.4
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+catboost
+imbalanced-learn
 
 # Visualization
-plotly==5.24.1
-matplotlib==3.9.3
-seaborn==0.13.2
+plotly
+matplotlib
+seaborn
 
 # Explainability
-shap==0.46.0
+shap
 
 # Generative AI (choose one)
-openai==1.54.5  # NVIDIA API compatible (Required for chatbot)
-faiss-cpu==1.9.0  # Vector search for RAG
+openai
+faiss-cpu
 
 # Additional utilities
-python-dotenv==1.0.0  # For environment variables
-httpx==0.27.2  # Pin to avoid proxies kwarg removal in 0.28+
+python-dotenv
+httpx
 
