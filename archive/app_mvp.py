@@ -17,7 +17,7 @@ from datetime import datetime
 import os
 
 # Local imports
-from encoding_map import ENCODING_MAP
+from utils.encoding_map import ENCODING_MAP
 
 # ----------------------------
 # Page Configuration

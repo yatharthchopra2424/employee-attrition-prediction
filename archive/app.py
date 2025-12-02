@@ -18,7 +18,7 @@ import json
 import os
 
 # Local imports
-from encoding_map import ENCODING_MAP
+from utils.encoding_map import ENCODING_MAP
 
 # Try importing utilities (may fail if dependencies not installed yet)
 try:

@@ -20,7 +20,7 @@ except ImportError:
     FAISS_AVAILABLE = False
 
 try:
-    from encoding_map import ENCODING_MAP
+    from utils.encoding_map import ENCODING_MAP
 except ImportError:
     ENCODING_MAP = {}
 
